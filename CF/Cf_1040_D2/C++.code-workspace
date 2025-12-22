@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"name": "CP_Templates",
+			"path": "../Templates/CP_Templates"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.ejs": "html",
+			"iostream": "cpp",
+			"functional": "cpp",
+			"ostream": "cpp",
+			"*.tcc": "cpp",
+			"string": "cpp",
+			"unordered_map": "cpp",
+			"unordered_set": "cpp",
+			"array": "cpp",
+			"deque": "cpp",
+			"vector": "cpp",
+			"forward_list": "cpp",
+			"list": "cpp",
+			"initializer_list": "cpp",
+			"regex": "cpp",
+			"valarray": "cpp"
+		}
+	}
+}
