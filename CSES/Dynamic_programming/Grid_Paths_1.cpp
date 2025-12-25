@@ -13,10 +13,7 @@ return dp[i][j]=0;
 
 if(i==0 && j==0)
 return dp[i][j]=1;  
-else if(i==0)
-return dp[i][j]=num_paths(grid,i,j-1,dp);
-else if(j==0)
-return dp[i][j]=num_paths(grid,i-1,j,dp);
+
 return dp[i][j]=(num_paths(grid,i-1,j,dp)+num_paths(grid,i,j-1,dp))%MOD;
 
 }
